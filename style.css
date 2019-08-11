@@ -5,12 +5,13 @@ body{
     background: #777;
     color: #777; 
     text-align: center;
+    margin-left: 200px;
 }
 
 header {
  background: #ebebeb;
  padding: 30px;
- margin-bottom: 20px;
+ margin-bottom: 10px;
 
 }
 
@@ -22,21 +23,20 @@ nav{
 
 section{
     background: #ebebeb;
-    width: 495px;
+    width: 550px;
     height: 200px;
-    padding: 20px;
-    
+    padding-top: 30px;
 }
 aside{
     background: #ebebeb;
-    width: 350px;
+    width: 390px;
     height: 200px;
-    padding: 20px;
     float: right;
-    
+    padding-top: 30px;
 }
 footer{
     clear: both;
+    overflow: auto;
     background: #ebebeb;
     padding: 30px;
     margin-top: 20px;
@@ -45,25 +45,33 @@ footer{
 article{
     background: #777;
     color: #ebebeb;
-    width: 400px;
+    width: 530px;
+    height: 135px;
     margin-top: 20px;
-    margin-left: 50px;
-    height: 150px;
-    padding-top: 10px;
+    padding-top: 15px;
+    margin-left: 10px;
+    
 }
 
 h1{
     background: #ebebeb;
     color: #777;
-    margin-left: 25px;
-    margin-right: 25px;
-    
+    width: 455px;
+    height: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 p{
     background: #ebebeb;
     color: #777;
-    margin-left: 25px;
-    margin-right: 25px;
-   
+    width: 455px;
+    height: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    
 }
